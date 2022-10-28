@@ -32,7 +32,7 @@ export default function App() {
     <div className="pa-16">
       <h2>Fill the Form!</h2>
       <form onSubmit={handleSubmit}>
-        <Input name="Name" value={name} onChange={changeName} />
+        <Input name="Nameeeee" value={name} onChange={changeName} />
         <Select name="Gender" value={gender} onChange={changeGender} />
         <Input name="Age" value={age} onChange={changeAge} />
         <Select name="Favourite Color" value={color} onChange={changeColor} />
